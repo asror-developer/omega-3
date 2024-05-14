@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.site-header{
+    background-color: #111;
+ 
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-item{
+    margin: 25px;
+}
+.navbar-link1{
+    font-family: "CircularStd" , sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: right;
+    color: red;
+}
+.navbar-link{
+    font-family: "CircularStd" , sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.navbar-button{
+    /* font-family: "CircularStd" , sans-serif;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.5002105832099915px;
+text-align: center;
+color: #FFFFFF; */
+width: 157px;
+height: 45px;
+border: 1px;
+color: white;
+background-color: red;
+border-radius: 4px;
+}
+
+/* ----------------------------------------hero---------------------------- */
+
+
+
+/* -------------------------------------------about---------------------------- */
+
+
+    
+.about-list{
+    position: relative;
+}
+.about-img{
+    position: absolute;
+    top: 235px;
+    
+    left: 522px;
+}
+.about-wrapper{
+    text-align: center;
+}
+.about-box{
+    width: 525px;
+    margin: 0 auto;
+}
+.about-title{
+    font-family: "CircularStd" , sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.875789999961853px;
+    color: #FFFFFF;  
+    margin-bottom: 20px;
+}
+.about-text{
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.6565263867378235px;
+color: #FFFFFFB2;
+margin-bottom: 30px;
+}
+/* -------------------------------------------page-------------------------------- */
+
+
+.page-container {
+    padding-top: 60px;
+}
+.page-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    
+}
+.page-list-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.page-item{
+    width: 246px;
+   text-align: center;
+    
+}
+.page-title {
+    padding-top: 20px;
+    font-family: "CircularStd" , sans-serif;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.7503158450126648px;
+color: #FFFFFF;
+ /* text-align: center; */
+}
+.page-text {
+    
+    font-family: "CircularStd" , sans-serif;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.5002105832099915px;
+color: #FFFFFF;
+/* text-align: center; */
+padding-top: 20px;
+
+}
+.page-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-bottom: 100px;
+    padding: 80px 50px;
+}
+
+/* ------------------------------------------menu--------------------------------- */
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+}
+.menu-img-name{
+    position: relative;
+}
+.menu-img{
+    position:absolute;
+   left:  -90px;
+  top: 0px;
+  
+}
+
+.menu-box {
+    width: 511px;
+}
+.menu-button {
+    font-family: "CircularStd" , sans-serif;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: -0.40642109513282776px;
+text-align: left;
+color: #FFFFFF;
+padding: 7px 25px;
+background: rgb(61, 61, 213);
+border-radius: 7px;
+border: none;
+}
+.menu-title {
+    font-family: "CircularStd" , sans-serif;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.875789999961853px;
+text-align: left;
+color: #FFFFFF;
+padding-top: 20px;
+}
+.menu-text { 
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.6565263867378235px;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.7;
+padding-top: 30px;
+}
+/* --------------------------------------------main----------------------------- */
+.main-wrapper{
+    text-align: center;
+}
+.main-box{
+    width: 627px;
+    margin: 0 auto;
+}
+
+
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-title{
+    width: 627px;
+    font-family: "CircularStd" , sans-serif;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.875789999961853px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 20px;
+
+}
+.main-text{
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.6565263867378235px;
+text-align: center;
+color: #FFF;
+margin-bottom: 50px;
+}
+/* -----------------------------------contact---------------------------- */
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-box {
+    width: 560px;
+}
+.contact-title {
+    font-family: "CircularStd" , sans-serif;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.875789999961853px;
+text-align: left;
+color: #FFFFFF;
+}
+.contact-text {
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.6565263867378235px;
+text-align: left;
+color: #FFFFFF;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+.contact-button {
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: -0.6565263867378235px;
+text-align: center;
+color: #FFFFFF;
+background: #F04037;
+padding: 16px 20px;
+border-radius: 5px;
+padding-top: 20px;
+}
+
+/* ------------------------------------------------stel---------------------------------- */
+.container {
+}
+.stel-container {
+}
+.stel-wrapper {
+    text-align: center;
+}
+.stel-box {
+
+}
+.stel-title {
+    font-family: "CircularStd" , sans-serif;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.875789999961853px;
+
+color: #FFF;
+
+}
+.stel-text {
+    font-family: "CircularStd" , sans-serif;
+font-size: 21px;
+line-height: 39px;
+letter-spacing: -0.6565263867378235px;
+color: #FFFFFF;
+}
+.stel-list {
+ display: flex;
+ flex-wrap: wrap;
+}
+.stel-item {
+    width: 560px;
+}
+.stel-title-name {
+    font-family: "CircularStd" , sans-serif;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.7503158450126648px;
+color: #FFFFFF;
+
+}
+.stel-text-name {
+    font-family: "CircularStd" , sans-serif;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.5002105832099915px;
+color: #FFFFFF;
+
+}
